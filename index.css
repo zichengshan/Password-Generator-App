@@ -40,7 +40,7 @@ span {
     color: green;
 }
 
-.input-box {
+#input-box {
     background-color: whitesmoke;
     width: 170px;
     height: 40px;
@@ -56,7 +56,10 @@ div {
 }
 
 p {
-    margin: 0px 10px 30px 10px;
+    text-align: center;
+    margin: 0px auto 30px auto;
+    width: 40%;
+    font-size: 20px;
 }
 
 
