@@ -46,20 +46,21 @@ span {
     height: 40px;
 }
 
-div {
-    margin-bottom: 40px;
+.results-container {
+    display: flex;
 }
 
-.results {
-    margin-top: 50px;
-    columns: 2;
+.result {
+    text-align: center;
+    margin: 20px auto 20px auto;
+    width: 40%;
+    font-size: 20px;
+    background-color: darkslategrey;
+    color: white;
 }
 
 p {
     text-align: center;
-    margin: 0px auto 30px auto;
-    width: 40%;
-    font-size: 20px;
 }
 
 
