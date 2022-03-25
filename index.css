@@ -3,5 +3,61 @@
 }
 
 body {
-
+    font-family: "Karla";
+    background-color: #1F2937;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin: 100px;
 }
+
+table {
+    margin: auto;
+}
+
+.submit-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background: purple;
+    color: white;
+    width: 250px;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#title {
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+span {
+    color: green;
+}
+
+.input-box {
+    background-color: whitesmoke;
+    width: 170px;
+    height: 40px;
+}
+
+div {
+    margin-bottom: 40px;
+}
+
+.results {
+    margin-top: 50px;
+    columns: 2;
+}
+
+p {
+    margin: 0px 10px 30px 10px;
+}
+
+
+

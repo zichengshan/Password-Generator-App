@@ -6,28 +6,22 @@
         <link href="index.css" rel="stylesheet">
     </head>
     <body>
-    <div>
-        <h1>Generate a random password</h1>
-        <p>Never use an insecure password again.</p>
-        <button>⚡️ Generate passwords</button>
-        <form>
-            <input type="number" name="Length" >
-            <input type="submit" value="⚡️ Generate passwords">
-        </form>
-    </div>
-    <hr>
-    <section>
-        <table border="1">
-            <tr>
-                <td id = "td1">row 1, cell 1</td>
-                <td>row 1, cell 2</td>
-            </tr>
-            <tr>
-                <td>row 2, cell 1</td>
-                <td>row 2, cell 2</td>
-            </tr>
-        </table>
-    </section>
-    <script src="index.js"></script>
+        <div>
+            <h1 id = "title">Generate a <span>random password</span></h1>
+            <p id = "text">Never use an insecure password again.</p>
+<!--            <button>⚡️ Generate passwords</button>-->
+            <form >
+                <input type="text" name="Length" placeholder="The Length of Passwords" class="input-box">
+                <input type="submit" value="⚡️ Generate passwords" class="submit-btn">
+            </form>
+        </div>
+        <hr>
+        <div class="results">
+            <p id="result-1">1</p>
+            <p id="result-2">2</p>
+            <p id="result-3">3</p>
+            <p id="result-4">4</p>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
