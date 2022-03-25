@@ -7,12 +7,8 @@ let resEl4 = document.getElementById("result-4")
 let results_box = [resEl1, resEl2, resEl3, resEl4]
 let length = 0
 
-// resEl3.textContent = "okk"
-
 function generatePasswords() {
     length = parseInt(inputEl.value)
-    // let number = getRandomNumber()
-    // results_box[0].textContent = number
 
     for(let i = 0; i < 4; i++){
         let password = ""
